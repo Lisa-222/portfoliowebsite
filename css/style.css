@@ -97,7 +97,7 @@ textarea {
 .child2 {
   width: 33vw;
   height:33vw;
-  background-color: salmon;
+  background-color: #C72E66;
   background-image: url(../images/gif1.gif);
   background-size: cover;
 }
@@ -105,7 +105,7 @@ textarea {
 .child3 {
   width: 33vw;
   height:33vw;
-  background-color: yellow;
+  background-color: #F6EC3E;
   background-image: url(../images/screenp.png);
   background-size: cover;
 }
@@ -117,7 +117,7 @@ textarea {
 .child4 {
   width: 33vw;
   height:33vw;
-  background-color: yellow;
+  background-color: #F6EC3E;
   background-image: url(../images/intinst.gif);
   background-size: cover;
 }
@@ -125,7 +125,7 @@ textarea {
 .child5 {
   width: 33vw;
   height:33vw;
-  background-color: skyblue;
+  background-color: #1E74D0;
   background-image: url(../images/sculpture1.png);
   background-size: cover;
 
@@ -134,7 +134,7 @@ textarea {
 .child6 {
   width: 33vw;
   height:33vw;
-  background-color: salmon;
+  background-color: #C72E66;
   background-image: url(../images/anim.gif);
   background-size: cover;
 }
