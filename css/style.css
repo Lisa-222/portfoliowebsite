@@ -109,6 +109,10 @@ textarea {
   background-image: url(../images/screenp.png);
   background-size: cover;
 }
+.parent div:hover {
+  background-image: none;
+}
+
 
 .child4 {
   width: 33vw;
