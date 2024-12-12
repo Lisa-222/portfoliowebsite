@@ -156,6 +156,16 @@ textarea {
   line-height: 26.4px;
 }
 
+.float {
+  position: fixed;
+  top: 1em;
+  left:1em;
+}
+.float a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .texth3 {
   color: #151aab;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
@@ -188,6 +198,7 @@ a:hover {
 
 .content {
   text-align: center;
+  margin-top: 6em;
 }
 
 .imagevideo {
@@ -195,6 +206,9 @@ a:hover {
   background-color: white;
   display: inline-block;
   align-content: center;
+}
+.imagevideo img {
+  width: 100%;
 }
 
 .annotation {
@@ -289,9 +303,25 @@ width: 70vw;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 50em) {
   /* Style adjustments for viewports that meet the condition */
+ .texth3, .textreg {
+  font-size: 15px;
+ } 
+ .texth1 {
+  font-size: 22px;
+ }
+
+@media only screen and (max-width: 40em) {
+  /* Style adjustments for viewports that meet the condition */
+ .texth3, .textreg {
+  font-size: 10px;
+ } 
+ .texth1 {
+  font-size: 14px;
+ }
+
+
 }
 
 @media print,
